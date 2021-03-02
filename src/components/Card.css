@@ -1,0 +1,71 @@
+body {
+  background-color: gainsboro;
+}
+
+.card {
+  width: 20%;
+  min-width: 300px;
+  height: 200px;
+  border: black 7px solid;
+  border-radius: 7px;
+  float: left;
+  margin: 20px 10px;
+  padding: 30px 30px;
+  background-color: white;
+}
+
+.card .header, .card .body {
+  display: flex;
+}
+.card .logo {
+  border-radius: 55px;
+  width: 90px;
+}
+
+.card .copy {
+  padding: 10px 20px;
+  
+}
+.card .name {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card .occupation {
+  margin: 0;
+  padding-left: 10px;
+  color: gray;
+}
+
+.card .graph, .card .stats {
+  width: 50%;
+}
+
+.card .stats p{
+  color: darkgrey;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.card .stats .impression{
+  color: orange;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.card .stats .conversion{
+  color: blue;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.card .stats .total{
+  color: darkgreen;
+
+  font-size: 18px;
+  font-weight: bold;
+}
